@@ -11,6 +11,7 @@
         width: 90vw;
     }
     
+
     section#login > div#imagem {
         float: left;
         width: 30%;
@@ -28,9 +29,12 @@
 @media screen and (min-width: 992px) {
 
     body {
+        
         background-image: linear-gradient(to top, #5f2c82, #49a09d);
-    }
     
+    }
+
+
 
     section#login {
         width: 950px;
@@ -40,4 +44,13 @@
         float: right;
         width: 50%;
     }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
+    }
+
 }
